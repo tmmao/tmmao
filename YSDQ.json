@@ -1,0 +1,63 @@
+{
+    "Alist": {
+        "米奇妙妙屋": "https://anime.mqmmw.ga", 
+        "小兵组网盘影视": "https://6vv.app", 
+        "一只鱼": "https://alist.youte.ml", 
+        "七米蓝": "https://al.chirmyram.com",  
+        "小雅的网盘": "http://alist.xiaoya.pro", 
+       
+    },
+    "QiQi":[ 
+        {
+          "jx":"http://lanlan.ckflv.cn/?url=",
+          "jxfrom":"other",
+          "gs":"data,url",
+          "erro":""
+          },
+        {
+          "jx":"http://lanlan.ckflv.cn/?url=",
+          "gs":"data,url",
+          "jxfrom":"QiQi",
+          "erro":"解析失败"
+          }
+    ],
+    "YSDQ": {
+        "thlimit": 5, 
+        "speedLimit":"512K",
+        "searchList":"qq,ik,bw,ld,bb,ps,ys,zzy,xzt",
+        "ocrurl": "https://api.nn.ci/ocr/b64/text"
+    },
+    "Ali": {
+        "token": "http://www.饭太硬.com/tok"
+    },
+    "Bili": {
+        "cookie": "https://raw.iqiq.io/lm317379829/PyramidStore/pyramid/cookie.txt", 
+        "category": "纪录片,纪录片|相声,相声小品"
+    },
+    "Zhaozy": {
+        "username": "Unbaked4136", 
+        "password": "4hzxQkB9yxX5EP"
+    },
+    "Zhibo": [
+        {
+            "pf": "douyu",
+            "id": "208",
+            "name": "斗鱼-一起看"
+        },
+        {
+            "pf": "bilibili",
+            "id": "6",
+            "name": "B站-单机游戏"
+        },
+        {
+            "pf": "huya",
+            "id": "2135",
+            "name": "虎牙-一起看"
+        },
+        {
+            "pf": "sport",
+            "id": "sport",
+            "name": "体育-全部"
+        }
+    ]
+}
