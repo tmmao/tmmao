@@ -1,63 +1,106 @@
 {
-    "Alist": {
-        "米奇妙妙屋": "https://anime.mqmmw.ga", 
-        "小兵组网盘影视": "https://6vv.app", 
-        "一只鱼": "https://alist.youte.ml", 
-        "七米蓝": "https://al.chirmyram.com",  
-        "小雅的网盘": "http://alist.xiaoya.pro", 
-       
-    },
-    "QiQi":[ 
-        {
-          "jx":"http://lanlan.ckflv.cn/?url=",
-          "jxfrom":"other",
-          "gs":"data,url",
-          "erro":""
-          },
-        {
-          "jx":"http://lanlan.ckflv.cn/?url=",
-          "gs":"data,url",
-          "jxfrom":"QiQi",
-          "erro":"解析失败"
-          }
+  "Alist": {
+        "小雅": "https://web.archive.org/web/20240225203618/http://alist.xiaoya.pro", 
+        "本地": "https://web.archive.org/web/20240225203618/http://192.168.0.1:5244",
+        "杜比高清影视": "https://web.archive.org/web/20240225203618/https://dubi.tk",
+        "米奇妙妙屋": "https://web.archive.org/web/20240225203618/https://anime.mqmmw.ga", 
+        "小兵组网盘影视": "https://web.archive.org/web/20240225203618/https://6vv.app", 
+        "一只鱼": "https://web.archive.org/web/20240225203618/https://alist.youte.ml", 
+        "七米蓝": "https://web.archive.org/web/20240225203618/https://al.chirmyram.com",   
+        "灭火器": "https://web.archive.org/web/20240225203618/https://alist1.owen10086.repl.co", 
+        "轻弹浅唱": "https://web.archive.org/web/20240225203618/https://g.xiang.lol", 
+        "晴园的宝藏库": "https://web.archive.org/web/20240225203618/https://alist.52qy.repl.co", 
+        "菊花盘": "https://web.archive.org/web/20240225203618/https://pan.142856.xyz", 
+        "星梦": "https://web.archive.org/web/20240225203618/https://pan.bashroot.top", 
+        "小江": "https://web.archive.org/web/20240225203618/https://dyj.me", 
+        "触光": "https://web.archive.org/web/20240225203618/https://pan.ichuguang.com", 
+        "好汉吧": "https://web.archive.org/web/20240225203618/https://8023.haohanba.cn", 
+        "DISK": "https://web.archive.org/web/20240225203618/http://124.222.140.243:8080",  
+        "SB盘": "https://web.archive.org/web/20240225203618/http://sbpan.tk", 
+        "西南第一捧心人": "https://web.archive.org/web/20240225203618/http://116.205.232.165:5244", 
+        "神族九帝(教育)": "https://web.archive.org/web/20240225203618/https://alist.shenzjd.com", 
+        "课程搜索": "https://web.archive.org/web/20240225203618/https://www.souke365.cn", 
+        "姬路白雪": "https://web.archive.org/web/20240225203618/https://pan.jlbx.xyz", 
+        "博哥": "https://web.archive.org/web/20240225203618/http://www.top12345.top",
+        "9T(Adult)": "https://web.archive.org/web/20240225203618/https://drive.9t.ee"
+  },
+  "YSDQ": {
+    "thlimit": 5,
+    "searchList": "qq,ik,bb,ps,ys,xzt",
+    "speedLimit": "1K",
+    "disableIPV6": "no",
+    "ocrurl": "https://web.archive.org/web/20240225203618/https://api.nn.ci/ocr/b64/text",
+    "ads": [
+      "mimg.0c1q0l.cn",
+      "www.googletagmanager.com",
+     
     ],
-    "YSDQ": {
-        "thlimit": 5, 
-        "speedLimit":"512K",
-        "searchList":"qq,ik,bw,ld,bb,ps,ys,zzy,xzt",
-        "ocrurl": "https://api.nn.ci/ocr/b64/text"
-    },
-    "Ali": {
-        "token": "http://www.饭太硬.com/tok"
-    },
-    "Bili": {
-        "cookie": "https://raw.iqiq.io/lm317379829/PyramidStore/pyramid/cookie.txt", 
-        "category": "纪录片,纪录片|相声,相声小品"
-    },
-    "Zhaozy": {
-        "username": "Unbaked4136", 
-        "password": "4hzxQkB9yxX5EP"
-    },
-    "Zhibo": [
-        {
-            "pf": "douyu",
-            "id": "208",
-            "name": "斗鱼-一起看"
-        },
-        {
-            "pf": "bilibili",
-            "id": "6",
-            "name": "B站-单机游戏"
-        },
-        {
-            "pf": "huya",
-            "id": "2135",
-            "name": "虎牙-一起看"
-        },
-        {
-            "pf": "sport",
-            "id": "sport",
-            "name": "体育-全部"
-        }
+    "T4api": [
+      {
+        "name": "网飞",
+        "api": "https://web.archive.org/web/20240225203618/http://192.168.1.1:1234/{删除内部文字，保留中括号}/更换为自己的id/更换为自己的secret/yanet"
+      },
+      {
+        "name": "明日",
+        "api": "https://web.archive.org/web/20240225203618/http://192.168.1.1:1234/{删除内部文字，保留中括号}/更换为自己的id/更换为自己的secret/mrys"
+      }
+    ],
+    "CJapi": [
+      {
+        "name": "量子",
+        "api": "https://web.archive.org/web/20240225203618/https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/"
+      },
+      {
+        "name": "酷点",
+        "api": "https://web.archive.org/web/20240225203618/https://kudian10.com/api.php/provide/vod/from/kdm3u8/"
+      }
     ]
+  },
+  "Ali": {
+    "token": "https://web.archive.org/web/20240225203618/https://cjk.lm317379829.repl.co/CJK/token.txt"
+  },
+  "QiQi": [
+    {
+      "jx": "https://web.archive.org/web/20240225203618/http://lanlan.ckflv.cn/?url=",
+      "jxfrom": "other",
+      "gs": "data,url",
+      "erro": ""
+    },
+    {
+      "jx": "https://web.archive.org/web/20240225203618/http://110.42.2.115:880/analysis/json/?uid=2100&my=XXXXXXXX&mgtv=app&url=",
+      "gs": "url",
+      "jxfrom": "QiQi",
+      "erro": "500"
+    }
+  ],
+  "Bili": {
+    "cookie": "https://web.archive.org/web/20240225203618/https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/cookie.txt",
+    "category": "健身,刘畊宏 9月21日|相声,相声小品"
+  },
+  "Zhaozy": {
+    "username": "Unbaked4136",
+    "password": "4hzxQkB9yxX5EP"
+  },
+  "Zhibo": [
+    {
+      "pf": "douyu",
+      "id": "208",
+      "name": "斗鱼-一起看"
+    },
+    {
+      "pf": "bilibili",
+      "id": "6",
+      "name": "B站-单机游戏"
+    },
+    {
+      "pf": "huya",
+      "id": "2135",
+      "name": "虎牙-一起看"
+    },
+    {
+      "pf": "sport",
+      "id": "sport",
+      "name": "体育-全部"
+    }
+  ]
 }
