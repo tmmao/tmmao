@@ -574,4 +574,7 @@ main() {
 	esac
 }
 
-main "$@"
+# 仅在直接执行时运行，source 时不自动启动
+if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
+    main "$@"
+fi
