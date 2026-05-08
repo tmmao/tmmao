@@ -435,7 +435,7 @@ restore_openwrt() {
 	local d="${dirs[$((idx-1))]}"
 	echo -e "${gl_huang}⚠️  还原 OpenWrt 配置可能影响网络连接${gl_bai}"
 	if ! confirm "确定继续?"; then break_end; return; fi
-	local tf=$(ls ${d}/ow_config_*.tar.gz 2>/dev/null | head -1)
+	local tf=$(ls ${d}/ow_*.tar.gz 2>/dev/null | head -1)
 	[[ -f "$tf" ]] && scp "$tf" root@192.168.0.1:/tmp/ow_restore.tar.gz && \
 		ssh root@192.168.0.1 "cd /etc/config && tar -xzf /tmp/ow_restore.tar.gz && rm /tmp/ow_restore.tar.gz" && \
 		success "配置已还原" && confirm "立即重启 OpenWrt?" && ssh root@192.168.0.1 "reboot"
